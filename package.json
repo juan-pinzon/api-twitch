@@ -1,0 +1,31 @@
+{
+  "name": "api-twitch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan-pinzon/api-twitch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juan-pinzon/api-twitch/issues"
+  },
+  "homepage": "https://github.com/juan-pinzon/api-twitch#readme",
+  "dependencies": {
+    "@hapi/boom": "^9.1.4",
+    "@hapi/joi": "^17.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9",
+    "mysql2": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
